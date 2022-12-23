@@ -12,8 +12,7 @@
 ### CLASSES ###
 # The classes compendium contains a list of main classes that all players are allowed to use. Each class in this compendium must draw all of its features from the
 # Class Features compendium. Classes need to have a description that contains a short description of the class, a table detailing the features gained by members
-# of the class, and a short description of each feature in the class. You can use the ClassFormat.md file to construct a class that observes this formatting
-# guide in Foundry. You can find the ClassFormat.md file in the Formatting folder in this repository.
+# of the class, and a short description of each feature in the class.
 
 ### CLASS FEATURES ###
 # The Class Features compendium contains all of the features that characters gain from their main class and their subclass. Features that are included in this
