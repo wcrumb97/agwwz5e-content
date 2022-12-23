@@ -7,7 +7,7 @@ Foundry Compendiums: https://foundryvtt.com/article/compendium/
 Content Packaging: https://foundryvtt.com/article/packaging-guide/
 
 ## USER GUIDE
-### This module is a collection of compendiums ONLY. World Scripts will not be included. The current list of compendiums, and a description of each is provided below:
+### This module is a collection of compendiums ONLY. World Scripts will not be included. The current list of compendiums and a description of each is provided below:
 
 ### CLASSES
 The classes compendium contains a list of main classes that all players are allowed to use. Each class in this compendium must draw all of its features from the
