@@ -9,11 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
       - uses: vimtor/action-zip@v1
         with:
           files: packs/ module.json
           dest: agwwz-content-module.zip
+          
       - uses: actions/upload-artifact@v1
         with:
-         name: my-artifact
-         path: ${{ github.workspace }}/agwwz-content-module.zip
+          name: my-artifact
+          path: ${{ github.workspace }}/agwwz-content-module.zip
