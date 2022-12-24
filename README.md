@@ -4,6 +4,7 @@ This module contains packs of compendiums that share data across Foundry worlds.
 articles linked below:
 
 Foundry Compendiums: https://foundryvtt.com/article/compendium/
+
 Content Packaging: https://foundryvtt.com/article/packaging-guide/
 
 ## USER GUIDE
