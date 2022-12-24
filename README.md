@@ -11,7 +11,7 @@ Content Packaging: https://foundryvtt.com/article/packaging-guide/
 ### This module is a collection of compendiums ONLY. World Scripts will not be included. The current list of compendiums and a description of each is provided below.
 
 ### INSTALLATION
-To install the module, download the agwwz-content-module.zip file. Unzip the file and place it in your Foundry module folder (C:\Users\<USER>\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
+To install the module, download the agwwz-content-module.zip file. Unzip the file and place it in your Foundry module folder (C:\Users\USER\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
 
 ### COMPENDIUMS
 #### CLASSES
