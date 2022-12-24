@@ -14,3 +14,12 @@ jobs:
         with:
           files: packs/ module.json
           dest: agwwz-content-module.zip
+         
+      - uses: swinton/commit@v2.x
+        env:
+         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+         files: |
+          agwwz-content-module.zip
+         commit-message: Committing
+         ref: refs/heads/my-branch
