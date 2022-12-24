@@ -13,3 +13,7 @@ jobs:
         with:
           files: packs/ module.json
           dest: agwwz-content-module.zip
+      - uses: actions/upload-artifact@v1
+        with:
+         name: my-artifact
+         path: ${{ github.workspace }}/agwwz-content-module.zip
