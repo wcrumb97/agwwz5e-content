@@ -76,6 +76,6 @@
             "type": "JournalEntry"
         }
     ],
-    "manifest": "https://github.com/wcrumb97/AGWWZ-Content/module.json",
-    "download": "https://github.com/wcrumb97/AGWWZ-Content/agwwz-content-module.zip"
+    "manifest": "https://github.com/<user>/<repo>/releases/latest/download/module.json",
+    "download": ""
   }
