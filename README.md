@@ -41,4 +41,3 @@ If you intend to add new material to this module, please abide by the following 
 1. Do not add material that the group has not agreed to use globally into any of the compendiums.
 2. Do not create new compendiums for assets that can be placed in the existing compendiums (Do not make new Class compendiums or Class Feature compendiums).
 3. Do not create new compendiums in the module without updating this file to include the new compendium and a description of it.
-4. See the AppendAsset.md document for tips to include a new asset in a compendium.
