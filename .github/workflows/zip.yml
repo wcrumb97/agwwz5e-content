@@ -1,8 +1,8 @@
 name: Zip Files
 
 on:
-  push:
-    branches: main
+  release:
+    type: [published]
 
 jobs:
   zip-files:
@@ -15,14 +15,7 @@ jobs:
           files: packs/ module.json
           dest: agwwz-content-module.zip
          
-      - name: Commit file
-        uses: swinton/commit@v2.x
-        env:
-         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v3
         with:
-         files: |
-          agwwz-content-module.zip
-         commit-message: Committing
-         ref: refs/heads/my-branch
-         
-         
+         name: my-artifact
+         path: ${{ github.workspace }}/result.zip
