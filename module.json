@@ -1,0 +1,79 @@
+{
+    "id": "agwwz-content-module",
+    "name": "AGWWZ Content Module",
+    "title": "AGWWZ Content Module",
+    "description": "A collection of content usable by our group.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Will"
+        },
+        {
+            "name": "Austin"
+        },
+        {
+            "name": "Geoffry"
+        },
+        {
+            "name": "Zach"
+        },
+        {
+            "name": "Wade"
+        }
+    ],
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "0.8.6",
+        "verified": "10"
+    },
+    "packs": [
+        {
+            "name": "classes",
+            "label": "Classes",
+            "path": "./packs/classes.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "class-features",
+            "label": "Class Features",
+            "path": "./packs/class-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "races",
+            "label": "Races",
+            "path": "./packs/races.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "racial-features",
+            "label": "Racial Features",
+            "path": "./packs/racial-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "subclasses",
+            "label": "Subclasses",
+            "path": "./packs/subclasses.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "informational-entries",
+            "label": "Informational Entries",
+            "path": "./packs/informational-entries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        }
+    ]
+  }
