@@ -16,8 +16,8 @@ jobs:
           dest: agwwz-content-module.zip
           
       - run: 
-          git config user.name wcrumb97
-          git config user.email wcrumb97@gmail.com
+          git config --global user.name wcrumb97
+          git config --global user.email wcrumb97@gmail.com
           git add agwwz-content-module.zip
           git commit -m "The files have been committed."
           git push -f origin main
