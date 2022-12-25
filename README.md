@@ -11,7 +11,7 @@ Content Packaging: https://foundryvtt.com/article/packaging-guide/
 ### This module is a collection of compendiums ONLY. World Scripts will not be included. The current list of compendiums and a description of each is provided below.
 
 ### INSTALLATION
-To install the module, download the agwwz-content-module.zip file. Unzip the file and place it in your Foundry module folder (C:\Users\USER\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
+To install the module, download a zip of the repo's contents by clicking on the "Code" button in the upper right corner and select download zip. Unzip the file and place it in your Foundry module folder (C:\Users\USER\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
 
 ### COMPENDIUMS
 #### CLASSES
@@ -37,7 +37,7 @@ The Racial Features compendium contains all of the traits that are assigned to a
 have basic functionality in Foundry.
 
 #### INFORMATIONAL ENTRIES
-The Informational Entries compendium contains journal entry documents that provide extended information for classes, subclasses, races, and, features.
+The Informational Entries compendium contains journal entry documents that provide extended information for classes, subclasses, races, and features.
 Each document in this compendium should be linked in the description of the class, subclass, race, or feature that it describes.
 
 ## ADDING NEW MATERIAL
@@ -47,5 +47,4 @@ If you intend to add new material to this module, please abide by the following 
 2. Do not create new compendiums for assets that can be placed in the existing compendiums (Do not make new Class compendiums or Class Feature compendiums).
 3. Do not create new compendiums in the module without updating this README to include the new compendium and a description of it.
 4. Check the FAQ.md to for guidance on appending information into an existing compendium or creating a new one.
-5. If you update a compendium or the module.json file, run the zip workflow action to replace the current zip folder with the updated one.
 
