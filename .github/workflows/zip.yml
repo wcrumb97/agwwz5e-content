@@ -14,8 +14,7 @@ jobs:
         with:
           files: packs/ module.json
           dest: agwwz-content-module.zip
-         
-      - uses: actions/upload-artifact@v3
-        with:
-         name: my-artifact
-         path: ${{ github.workspace }}/agwwz-content-module.zip
+      
+      - run: git add agwwz-content-module.zip
+      - run: git commit -m "The files have been committed."
+      - run: git push -f origin main
