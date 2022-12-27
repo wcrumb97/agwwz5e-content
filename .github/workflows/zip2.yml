@@ -16,4 +16,4 @@ jobs:
       
       - run: git config --local user.name "wcrumb97"
       
-      - run: git config --list 
+      - run: git commit -m "Update- Added the new content to the module zip file"
