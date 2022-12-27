@@ -12,4 +12,8 @@ jobs:
           
       - run: git add agwwz-content-module.zip
       
-      - run: git commit -m "update- Added the new zip file to main."
+      - run: git config --local user.email "wcrumb97@gmail.com"
+      
+      - run: git config --local user.name "wcrumb97"
+      
+      - run: git config --list 
