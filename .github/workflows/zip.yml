@@ -12,4 +12,6 @@ jobs:
       
       - run: zip -r agwwz-content-module.zip module.json packs/
           
+      - run: git add agwwz-content-module.zip
+      
       - run: git status
