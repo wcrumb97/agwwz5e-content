@@ -16,7 +16,7 @@ jobs:
       uses: battila7/get-version-action@v2
 
     # Create a zip file with all files required by the module to add to the release
-    - run: zip -r ./agwwz-content-module.zip module.json packs/
+    - run: zip -r ./agwwz-content-module.zip
 
     # Create a release for this specific version
     - name: Update Release with Files
@@ -28,6 +28,6 @@ jobs:
         draft: ${{ github.event.release.unpublished }}
         prerelease: ${{ github.event.release.prerelease }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json, ./agwwz-content-module.zip'
+        artifacts: './agwwz-content-module.zip'
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
