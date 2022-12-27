@@ -1,17 +1,21 @@
 name: Zip Files
 
-on:
-  release:
-    types: [published]
+on: workflow_dispatch
 
 jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      - run: zip -r agwwz-content-module.zip module.json packs/
+      - uses: vimtor/action-zip@v1
+        with:
+          files: packs/ module.json
+          dest: agwwz-content-module.zip
           
-      - run: git add agwwz-content-module.zip
-      
-      - run: git status
+  commit-to-main:
+    runs-on: ubuntu-latest
+    steps:
+     - run: git config --local user.name "wcrumb97"
+     - run: git config --local user.email "wcrumb97@gmail.com"
+     - run: git add .
+     - run: git status
