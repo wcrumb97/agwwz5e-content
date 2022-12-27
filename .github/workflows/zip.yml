@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - run: zip -r module.json packs/
+      - run: zip -r agwwz-content-module.zip module.json packs/
           
       - run: git status
