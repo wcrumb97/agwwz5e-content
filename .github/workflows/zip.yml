@@ -15,7 +15,7 @@ jobs:
   commit-to-main:
     runs-on: ubuntu-latest
     steps:
-     - run: git config --local user.name "wcrumb97"
-     - run: git config --local user.email "wcrumb97@gmail.com"
+     - run: git config --global user.name "wcrumb97"
+     - run: git config --global user.email "wcrumb97@gmail.com"
      - run: git add .
      - run: git status
