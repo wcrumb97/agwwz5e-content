@@ -14,7 +14,7 @@ Content Packaging: https://foundryvtt.com/article/packaging-guide/
 To install the module, follwo these steps:
 1. Download a zip of the repo's contents by clicking on the "Code" button in the upper right corner and select download zip. 
 2. Unzip the file and place it in your Foundry module folder (C:\Users\USERNAME\AppData\Local\FoundryVTT\Data\modules by default). 
-3. **Remove the "-main" that is appended onto the end of the module name.** 
+3. **Remove the "-main" that is appended onto the end of the folder name.** 
 4. Boot the game world where you want to use this module and enable it.
 
 ### UPDATE MODULE LOCALLY
