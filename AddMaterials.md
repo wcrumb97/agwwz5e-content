@@ -37,13 +37,21 @@ should be dnd5e. **All of the traits should be quoted as shown in the template a
 
 ### DOCUMENT TYPES
 The types of documents that can be stored in a compendium are listed below with the object they represent. Find the appropriate type for your object.
+
 Actor: NPCs, Vehicles, and Player Characters
+
 **Card^**: Card Decks, Hands, and Piles
+
 Item: Items, Features, Backgrounds, Classes, and Spells
+
 JournalEntry: Journals
+
 Macro: Macros
+
 Playlist: Playlists
+
 RollTable: Roll Tables
+
 Scene: Maps
 
 ^Not sure if this type is correct or not, I haven't seen any examples of a cards compendium being imported with a module online.
