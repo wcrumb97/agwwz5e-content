@@ -20,14 +20,23 @@ Follow steps 1-6 of the section above. Then, do the following:
 1. Copy the compendium .db file in the world folder, and paste it into the repository packs\ directory.
 2. Open up the module.json in the repository.
 3. Under the "packs" section, add the compendium with the following template: 
+
 ,
+
 {
+
   "name": "compendium-name",
+  
   "label": "Compendium Name",
+  
   "path": "./packs/YOUR .DB FILE",
+  
   "entity": "DOCUMENT TYPE",
+  
   "type": "DOCUMENT TYPE",
+  
   "system": "dnd5e"
+  
 }
 
 **Make sure you include the comma at the top.** Please note that the **name** trait should be all lowercase and any spaces should be replaced with hyphens. 
