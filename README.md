@@ -11,7 +11,16 @@ Content Packaging: https://foundryvtt.com/article/packaging-guide/
 ### This module is a collection of compendiums ONLY. World Scripts will not be included. The current list of compendiums and a description of each is provided below.
 
 ### INSTALLATION
-To install the module, download a zip of the repo's contents by clicking on the "Code" button in the upper right corner and select download zip. Unzip the file and place it in your Foundry module folder (C:\Users\USER\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
+To install the module, download a zip of the repo's contents by clicking on the "Code" button in the upper right corner and select download zip. Unzip the file and place it in your Foundry module folder (C:\Users\USERNAME\AppData\Local\FoundryVTT\Data\modules by default). Then boot the game world where you want to use this module and enable it.
+
+### UPDATE MODULE LOCALLY
+To update the module, you'll need to manually download updated versions of the module.json (if needed) or the updated .db files in the packs folder. You will only need to download the module.json file if a new compendium is added to module. To update an existing compendium, follow these steps:
+
+1. Go to the packs directory in the repo and download the updated .db file.
+2. Delete the copy of the .db file that you are replacing from your local copy of the module. The location of the file should be in C:\Users\USERNAME\AppData\Local\FoundryVTT\Data\modules\agwwz-content-module\packs\.
+3. Move the .db file that you downloaded to your local copy of the agwwz-content-module packs folder.
+
+If you are updating the module.json file, follow the steps above, but replace the module.json in the \agwwz-content-module\ folder instead.
 
 ### COMPENDIUMS
 #### CLASSES
@@ -46,5 +55,5 @@ If you intend to add new material to this module, please abide by the following 
 1. Do not add material that the group has not agreed to use globally into any of the compendiums.
 2. Do not create new compendiums for assets that can be placed in the existing compendiums (Do not make new Class compendiums or Class Feature compendiums).
 3. Do not create new compendiums in the module without updating this README to include the new compendium and a description of it.
-4. Check the FAQ.md to for guidance on appending information into an existing compendium or creating a new one.
+4. Check the AddMaterials.md file for additional guidance on appending new material to the module compendiums and creating new compendiums.
 
