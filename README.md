@@ -49,5 +49,5 @@ If you intend to add new material to this module, please abide by the following 
 1. **Do not add material that the group has not agreed to use globally into any of the compendiums.**
 2. Do not create new compendiums for assets that can be placed in the existing compendiums (Do not make new Class compendiums or Class Feature compendiums).
 3. Do not create new compendiums in the module without updating this README to include the new compendium and a description of it.
-4. **Check the AddMaterials.md file for additional guidance on appending new material to the module compendiums and creating new compendiums.**
+4. **Check the [AddMaterials.md](https://github.com/wcrumb97/agwwz-content-module/blob/main/AddMaterials.md) file for additional guidance on appending new material to the module compendiums and creating new compendiums.**
 
