@@ -23,7 +23,7 @@
       "path": "packs/actor-1-monsters-and-npcs.db",
       "entity": "Actor",
       "type": "Actor",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "item-1-foundry-items",
@@ -31,7 +31,7 @@
       "path": "packs/item-1-foundry-items.db",
       "entity": "Item",
       "type": "Item",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "cards-1-cards",
@@ -39,7 +39,7 @@
       "path": "packs/cards-1-cards.db",
       "entity": "Cards",
       "type": "Cards",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "journalentry-1-journal-entries",
@@ -47,7 +47,7 @@
       "path": "packs/journalentry-1-journal-entries.db",
       "entity": "JournalEntry",
       "type": "JournalEntry",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "scene-1-scenes",
@@ -55,7 +55,7 @@
       "path": "packs/scene-1-scenes.db",
       "entity": "Scene",
       "type": "Scene",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "macro-1-macros",
@@ -63,7 +63,7 @@
       "path": "packs/macro-1-macros.db",
       "entity": "Macro",
       "type": "Macro",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "rolltable-1-roll-tables",
@@ -71,7 +71,7 @@
       "path": "packs/rolltable-1-roll-tables.db",
       "entity": "RollTable",
       "type": "RollTable",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     },
     {
       "name": "playlist-1-music",
@@ -79,7 +79,7 @@
       "path": "packs/playlist-1-music.db",
       "entity": "Playlist",
       "type": "Playlist",
-      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+      "package": "agwwz5e-content"
     }
   ],
   "packFolders": [{
