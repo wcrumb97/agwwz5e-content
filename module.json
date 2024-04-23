@@ -1,79 +1,120 @@
 {
-    "id": "agwwz-content-module",
-    "name": "AGWWZ Content Module",
-    "title": "AGWWZ Content Module",
-    "description": "A collection of content usable by our group.",
-    "version": "2.0.0",
-    "authors": [
-        {
-            "name": "Will"
-        },
-        {
-            "name": "Austin"
-        },
-        {
-            "name": "Geoffry"
-        },
-        {
-            "name": "Zach"
-        },
-        {
-            "name": "Wade"
-        }
-    ],
-    "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
-    "compatibility": {
-        "minimum": "11",
-        "verified": "11"
+  "id": "agwwz5e-content",
+  "name": "agwwz5e-content",
+  "title": "AGWWZ5e Content (Shared Compendiums)",
+  "description": " <br/><div style=\"border: 1px solid #eee;border-left-width: .25rem;border-left-color: #f0ad4e;border-radius: .25rem;padding: 10px;\">\n        <h5 style=\"margin:0px;\">Shared Compendium</h5>\n        <p style=\"margin-bottom:0px;\">This module allows you to share compendiums between your worlds.</p>\n        <p style=\"margin-bottom:0px;\">It cannot be auto-updated, therefore it cannot overwrite your compendiums and is therefore <strong>safe to unlock</strong>.</p></div>",
+  "version": "2.0",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "author": "Will Crumb",
+  "authors": [
+    {
+      "name": "Will Crumb"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actor-1-monsters-and-npcs",
+      "label": "Monsters and NPCs (Shared)",
+      "path": "packs/actor-1-monsters-and-npcs.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
     },
-    "packs": [
-        {
-            "name": "classes",
-            "label": "Classes",
-            "path": "./packs/classes.db",
-            "entity": "Item",
-            "type": "Item",
-            "system": "dnd5e"
-        },
-        {
-            "name": "class-features",
-            "label": "Class Features",
-            "path": "./packs/class-features.db",
-            "entity": "Item",
-            "type": "Item",
-            "system": "dnd5e"
-        },
-        {
-            "name": "races",
-            "label": "Races",
-            "path": "./packs/races.db",
-            "entity": "Item",
-            "type": "Item",
-            "system": "dnd5e"
-        },
-        {
-            "name": "racial-features",
-            "label": "Racial Features",
-            "path": "./packs/racial-features.db",
-            "entity": "Item",
-            "type": "Item",
-            "system": "dnd5e"
-        },
-        {
-            "name": "subclasses",
-            "label": "Subclasses",
-            "path": "./packs/subclasses.db",
-            "entity": "Item",
-            "type": "Item",
-            "system": "dnd5e"
-        },
-        {
-            "name": "informational-entries",
-            "label": "Informational Entries",
-            "path": "./packs/informational-entries.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        }
+    {
+      "name": "item-1-foundry-items",
+      "label": "Foundry Items (Shared)",
+      "path": "packs/item-1-foundry-items.db",
+      "entity": "Item",
+      "type": "Item",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "cards-1-cards",
+      "label": "Cards (Shared)",
+      "path": "packs/cards-1-cards.db",
+      "entity": "Cards",
+      "type": "Cards",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "journalentry-1-journal-entries",
+      "label": "Journal Entries (Shared)",
+      "path": "packs/journalentry-1-journal-entries.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "scene-1-scenes",
+      "label": "Scenes (Shared)",
+      "path": "packs/scene-1-scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "macro-1-macros",
+      "label": "Macros (Shared)",
+      "path": "packs/macro-1-macros.db",
+      "entity": "Macro",
+      "type": "Macro",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "rolltable-1-roll-tables",
+      "label": "Roll Tables (Shared)",
+      "path": "packs/rolltable-1-roll-tables.db",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    },
+    {
+      "name": "playlist-1-music",
+      "label": "Music (Shared)",
+      "path": "packs/playlist-1-music.db",
+      "entity": "Playlist",
+      "type": "Playlist",
+      "package": "forge-vtt-shared-compendiums-agwwz5e-content"
+    }
+  ],
+  "packFolders": [{
+    "name": "Shared Compendium Content",
+    "sorting": "a",
+    "packs": ["actor-1-monsters-and-npcs", "item-1-foundry-items", "cards-1-cards", 
+    "journalentry-1-journal-entries", "scene-1-scenes", "macro-1-macros", "rolltable-1-roll-tables", "playlist-1-music"]
+  }],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babonus",
+        "manifest": "https://github.com/krbz999/babonus/releases/latest/download/module.json"
+      },
+      {
+        "id": "midi-qol",
+        "manifest": "https://gitlab.com/tposney/midi-qol/raw/dnd3/package/module.json"
+      },
+      {
+        "id": "effectmacro",
+        "manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json"
+      },
+      {
+        "id": "item-piles",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/manifest.json"
+      },
+      {
+        "id": "ActiveAuras",
+        "manifest": "https://raw.githubusercontent.com/Kandashi/Active-Auras/main/module.json"
+      }
     ]
   }
+}
