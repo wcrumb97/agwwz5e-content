@@ -4,6 +4,7 @@ This module contains packs of compendiums that share data across Foundry worlds.
 articles linked below:
 
 Foundry Compendiums: https://foundryvtt.com/article/compendium/
+
 Content Packaging: https://foundryvtt.com/article/packaging-guide/
 
 ## USER GUIDE
@@ -21,20 +22,28 @@ To update the module, delete it from your modules folder and redownload the upda
 
 ### COMPENDIUMS
 For more information on document types in Foundry, see their knowledge base articles under "Key Concepts and Documents" at https://foundryvtt.com/kb/.
+
 #### CARDS
 This compendium contains Card documents.
+
 #### FOUNDRY ITEMS
 This compendium contains Item documents.
+
 #### JOURNAL ENTRIES
 This compendium contains Journal documents.
+
 #### MACROS
 This compendium contains macros.
+
 #### MONSTERS AND NPCS
 This compendium contains Actor documents.
+
 #### MUSIC
 This compendium contains Playlist documents.
+
 #### ROLL TABLES
 This compendium contains Roll Table documents.
+
 #### SCENES
 This compendium contains Scene documents.
 
