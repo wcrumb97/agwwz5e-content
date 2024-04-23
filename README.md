@@ -1,4 +1,4 @@
-# AGWWZ-Content
+# AGWWZ5e-Content
 
 This module contains packs of compendiums that share data across Foundry worlds. For more information on Compendiums and Content Packaging on Foundry, see the
 articles linked below:
