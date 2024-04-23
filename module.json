@@ -3,7 +3,7 @@
   "name": "agwwz5e-content",
   "title": "AGWWZ5e Content (Shared Compendiums)",
   "description": " <br/><div style=\"border: 1px solid #eee;border-left-width: .25rem;border-left-color: #f0ad4e;border-radius: .25rem;padding: 10px;\">\n        <h5 style=\"margin:0px;\">Shared Compendium</h5>\n        <p style=\"margin-bottom:0px;\">This module allows you to share compendiums between your worlds.</p>\n        <p style=\"margin-bottom:0px;\">It cannot be auto-updated, therefore it cannot overwrite your compendiums and is therefore <strong>safe to unlock</strong>.</p></div>",
-  "version": "2.0",
+  "version": "2.0.0",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "compatibility": {
@@ -118,6 +118,6 @@
     ]
   },
   "url": "https://github.com/wcrumb97/agwwz5e-content",
-  "manifest": "",
-  "download": ""
+  "manifest": "https://github.com/wcrumb97/agwwz5e-content/releases/download/2.0.0/module.json",
+  "download": "https://github.com/wcrumb97/agwwz5e-content/releases/download/2.0.0/module.zip"
 }
