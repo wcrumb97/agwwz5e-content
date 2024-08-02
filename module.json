@@ -3,12 +3,12 @@
   "name": "agwwz5e-content",
   "title": "AGWWZ5e Content (Shared Compendiums)",
   "description": "A bunch of content that is meant to be shared across worlds and games.",
-  "version": "2.6.2",
+  "version": "2.7.0",
   "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
+  "compatibleCoreVersion": "12",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "author": "Will Crumb",
   "authors": [
