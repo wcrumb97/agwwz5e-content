@@ -3,7 +3,7 @@
   "name": "agwwz5e-content",
   "title": "AGWWZ5e Content (Shared Compendiums)",
   "description": "A bunch of content that is meant to be shared across worlds and games.",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
   "compatibility": {
@@ -100,20 +100,8 @@
         "manifest": "https://github.com/krbz999/babonus/releases/latest/download/module.json"
       },
       {
-        "id": "midi-qol",
-        "manifest": "https://gitlab.com/tposney/midi-qol/raw/dnd3/package/module.json"
-      },
-      {
         "id": "effectmacro",
         "manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json"
-      },
-      {
-        "id": "item-piles",
-        "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/manifest.json"
-      },
-      {
-        "id": "ActiveAuras",
-        "manifest": "https://raw.githubusercontent.com/Kandashi/Active-Auras/main/module.json"
       }
     ]
   },
