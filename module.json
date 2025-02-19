@@ -3,7 +3,7 @@
   "name": "agwwz5e-content",
   "title": "AGWWZ5e Content (Shared Compendiums)",
   "description": "A bunch of content that is meant to be shared across worlds and games.",
-  "version": "2.7.1",
+  "version": "3.0",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "12",
   "compatibility": {
@@ -95,14 +95,7 @@
       }
     ],
     "requires": [
-      {
-        "id": "babonus",
-        "manifest": "https://github.com/krbz999/babonus/releases/latest/download/module.json"
-      },
-      {
-        "id": "effectmacro",
-        "manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json"
-      }
+
     ]
   },
   "url": "https://github.com/wcrumb97/agwwz5e-content",
